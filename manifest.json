@@ -1,0 +1,15 @@
+{
+  "name": "Type D XL",
+  "version": "0.7 Beta",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
