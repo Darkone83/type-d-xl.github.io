@@ -433,9 +433,6 @@
 
       function updateManifest() {
         switch (profileSelect.value) {
-          case "esp32":
-            installer.setAttribute("manifest", "firmware/manifest_esp32.json");
-            break;
           case "esp32s3":
           default:
             installer.setAttribute(
